@@ -455,7 +455,150 @@ temp=temp/10;
 }   
 printf("\nSum of digits of %d= %d\n",num,sum);   
 return 0;  
-}     
+} 
+
+21. #### Program to check whether the number is palindrome number or not 
+
+#include<stdio.h>   
+int main()    
+{   
+int sum=0,digit;  
+int number,temp;   
+printf("\nEnter Any Positive Number :");   
+scanf("%d",&number);   
+temp=number;   
+while(temp>0)   
+{   
+digit=temp%10;   
+temp/=10;   
+sum=sum*10+digit;  
+}  
+if(number==sum)   
+printf("\n%d is Palindrome Number\n",number);   
+else   
+printf("\n%d Is Not A Palindrome Number\n",number);  
+return 0;  
+}   
+    
+22. #### program to swap two numbers by call by value method
+
+#include<stdio.h>   
+void swap(int a,int b)   
+{   
+int temp;    
+printf("\ninside the function value of a = %d and value of b = %d before swap\n",a,b);  
+temp = a;   
+a = b;   
+b = temp;    
+printf("value of a = %d and value of b = %d",a,b);   
+}   
+int main()   
+{    
+int x,y;    
+printf("enter value for x : ");   
+scanf("%d",&x);   
+printf("enter value for y : ");   
+scanf("%d",&y);    
+printf("\nbefore calling swap function\n");    
+printf("value of x = %d, value of y = %d",x,y);   
+swap(x,y);    
+printf("\n after returning from swap function");   
+printf("\n value of x = %d and value of y = %d",x,y);  
+return 0;   
+}    
+
+23. #### Program to swap two numbers by call by reference method
+
+#include<stdio.h>   
+void swap(int*, int*);  
+void main()   
+{   
+int x,y;   
+printf("\nEnter the value of x: ");   
+scanf("%d",&x);   
+printf("\nEnter the value of y: ");
+scanf("%d",&y);   
+printf("\nBefore calling swap function\n");   
+printf("\nValue of x=%d, value of y=%d\n",x,y);  
+swap(&x,&y);   
+printf("\nAfter returning from swap function");  
+printf("\nValue of x=%d, Value of y=%d",x,y);  
+}   
+void swap(int*a, int*b)   
+  
+{   
+int temp;   
+printf("\nInside the function");   
+printf("\nValue of *a=%d, Value of *b=%d Before swap\n",*a,*b);  
+temp=*a;   
+*a = *b;   
+*b = temp;  
+printf("\nValue of *a=%d, Value of *b= %d after swap\n",*a, *b);  
+}  
+ 
+24. #### Program to enter the details of employees using structure
+
+#include<stdio.h>   
+#include<string.h>   
+struct employe   
+{   
+int code;   
+char name[30];   
+char department[50];   
+float salary;   
+};   
+void main()   
+{   
+struct employe employee;    
+printf("Enter Employee Code:\n");  
+scanf("%d",&employee.code);     
+printf("Enter Employee's Name:");    
+scanf("%[^\n]%*c",employee.name);    
+printf("Enter Employee's Department:");   
+scanf("%[^\n]%*c",employee.department);   
+printf("Enter Employee's salary:\n");   
+scanf("%f",&employee.salary);   
+printf("\n\n Particulars of Employee:");   
+printf("\n Employee's code:%d",employee.code);   
+printf("\n Employee's Name:%s",employee.name);    
+printf("\n Employee's Department:%s",employee.department);   
+printf("\n Employee's Salary:%f",employee.salary);    
+}   
+
+25. #### Program to find the product of fractions using structure
+
+#include <stdio.h>   
+struct product   
+{  
+int numerator, denominator;  
+};   
+void main()   
+{   
+struct product V1,V2,V3;   
+printf("Enter the numerator of first fraction: ");   
+scanf("%d",&V1.numerator);   
+printf("Enter the denominator of first fraction: ");    
+scanf("%d",&V1.denominator);   
+printf("Enter the numerator of second fraction: ");  
+scanf("%d",&V2.numerator);   
+printf("Enter the denominator of secondfraction: ");   
+scanf("%d",&V2.denominator);    
+    
+V3.numerator = V1.numerator * V2.numerator;    
+V3.denominator = V1.denominator * V2.denominator;   
+printf("Product= %d/%d",V3.numerator, V3.denominator);   
+   
+}  
+
+
+
+                                                                    
+                                                                    
+
+
+
+
+                                                                                                                                    
 
 
 
