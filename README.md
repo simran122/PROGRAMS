@@ -227,6 +227,248 @@ printf("factorial of %d is %d\n",a,factorial);
 return 0;  
 }  
 
+11. #### Program for fizzbuzz
+
+#include<stdio.h>  
+int main()   
+{   
+int i;   
+for(i=1;i<=50;i++)  
+   
+if(i%3==0 && i%5==0)  
+printf("FizzBuzz\n");  
+   
+ else if(i%3==0)   
+printf("Fizz\n");  
+else if(i%5==0)  
+printf("Buzz\n");  
+else   
+printf("%d\n",i);  
+return 0;   
+}   
+
+
+12 . #### Program for  sum of first 100 number
+
+#include<stdio.h>  
+int main()  
+{  
+int sum=0,number;  
+number=1;  
+while(number<=100)  
+{   
+sum+=number;  
+number++;  
+}  
+printf("sum of first 100 postive integer number=%d\n",sum);  
+return 0;  
+}  
+
+13. #### Program to find greater of two numbers
+
+#include<stdio.h>  
+int main()  
+{  
+int a,b;  
+printf("Enter Any 2 Number :");  
+scanf("%d%d",&a,&b);  
+if(a>b)  
+{  
+printf("a is greater ");   
+}  
+else  
+{   
+printf("b is greater ");  
+}  
+return 0;  
+}  
+
+14. #### Program to find greater of 3 numbers
+
+#include<stdio.h>  
+int main()  
+{  
+int a,b;  
+printf("Enter Any 2 Number :");  
+scanf("%d%d",&a,&b);  
+if(a>b)  
+{  
+printf("a is greater ");  
+}  
+else  
+{  
+printf("b is greater ");  
+}    
+return 0;  
+}  
+
+15. #### Program to find gcd of numbers
+
+#include<stdio.h>  
+int main()   
+{   
+int m,n,r=1;   
+printf("\nEnter Value For m,n");  
+scanf("%d,%d",&m,&n);   
+while(r!=0)  
+{    
+r=n%m;  
+n=m;   
+m=r;  
+}  
+printf("\nGCD=%d\n",n);  
+return 0;  
+}                                                                      
+                                                                    
+
+16. #### Program to find whether the year is leap year or not
+
+#include<stdio.h>     
+int main()     
+{      
+int year;     
+printf("Enter any year: ");     
+scanf("%d",&year);      
+if(year%4==0)      
+printf("%d is a leap year",year);    
+else    
+printf("%d is not a leap year",year);   
+return 0;    
+}   
+
+                                                                    
+17. #### Program for linear search
+
+#include<stdio.h>   
+int main()   
+{         
+int a[100],search,c,n;    
+printf("Enter no of element in array\n");   
+scanf("%d",&n);    
+printf("Enter %d integer\n",n);   
+for(c=0;c<n;c++)    
+scanf("%d",&a[c]);    
+printf("Enter A  Number To Search\n");    
+scanf("%d",&search);   
+for(c=0;c<n;c++)  
+{                                                                      
+if(a[c]==search)                                                      
+{                                                                     
+printf("%d is present at  %d location",search,c+1);                   
+break;                                                                              
+}                                                                     
+}   
+if(c==n)   
+printf("%d Is Not Present At Location\n",search);   
+return 0;   
+}    
+
+18. #### Program for matrix addition
+ 
+#include<stdio.h>  
+int main()   
+{  
+int A[10][10], B[10][10], sum[10][10];   
+int n,m,i,j;   
+printf("Enter  Size Of Matrix a as m,n:");   
+scanf("%d%d",&m,&n);    
+printf("\nEnter Element Of Matrix A  \n");   
+for(i=0;i<m;i++)   
+{   
+for(j=0;j<n;j++)   
+{  
+scanf("\n%d",&A[i][j]);   
+}   
+}   
+printf("\nEnter Element Of Matrix B \n");   
+for(i=0;i<m;i++)   
+{  
+for(j=0;j<n;j++)   
+{  
+scanf("\n%d",&B[i][j]);  
+}  
+}   
+printf("\n Sum of Two Matrix\n");  
+for(i=0;i<m;i++)  
+{   
+for(j=0;j<n;j++)  
+{   
+sum[i][j]=A[i][j]+B[i][j];   
+printf("%d\t",sum[i][j]);  
+}    
+printf("\n");  
+}   
+return 0;  
+}  
+
+19. #### Program for transpose of matrix
+
+#include<stdio.h>   
+int main()  
+{  
+int a[10][10], b[10][10];   
+int n,m,i,j;   
+printf("Enter  Size Of Matrix a as m,n:");  
+scanf("%d%d",&m,&n);   
+printf("\nEnter Element Of Matrix A Row Wise \n",m&n);  
+for(i=0;i<m;i++)   
+{  
+for(j=0;j<n;j++)   
+{    
+scanf("%d",&a[i][j]);  
+}   
+}  
+for(i=0;i<m;i++)  
+{   
+for(j=0;j<n;j++)  
+{   
+b[j][i]=a[i][j];   
+}   
+}   
+printf("\n Tranpose is \n\n");     
+for(i=0;i<n;i++)   
+{   
+for(j=0;j<m;j++)  
+{  
+printf("%d ",b[i][j]);  
+}  
+printf("\n");  
+                                                                      
+}   
+}  
+
+20. #### Program to find the sum of digits  of a number
+
+#include<stdio.h>  
+int main()   
+{   
+int digit, temp,  num,sum=0;  
+printf("Enter any number: ");   
+scanf("%d",&num);   
+   
+temp=num;   
+while(temp>0)  
+{  
+digit=temp%10;  
+sum= sum+digit;   
+temp=temp/10;   
+}   
+printf("\nSum of digits of %d= %d\n",num,sum);   
+return 0;  
+}     
+
+
+
+                                                                                                                                        
+                                                                    
+                                                                    
+                                                                                    
+                                                                                                                                        
+                                                                    
+                                                                    
+                                                                                    
+                                                                    
+
 
 
            
