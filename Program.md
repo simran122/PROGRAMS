@@ -3,9 +3,9 @@
 -----------
 # ** Programming for Problem Solving**
 -------
-#Name:"Simran Singh"
-#Rollno: 1915076
-#Class : CSE 'B'
+#Name:"Simran Singh"  
+#Rollno: 1915076  
+#Class : CSE 'B'  
 --
 
 #My _Programs
@@ -23,7 +23,7 @@ printf("%d",sum);
 return 0;  
 }  
 
---
+--------
 
 2. ### Program to find average of n numbers
 
@@ -48,7 +48,7 @@ printf("Average = %f",avg);
 return 0;  
 } 
 
---
+-------
 
 3. ### Program to print weekdays using switch statement
 
