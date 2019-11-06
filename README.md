@@ -485,17 +485,9 @@ return 0;
 22. #### program to swap two numbers by call by value method
 
 #include<stdio.h>   
-void swap(int a,int b)   
-{   
-int temp;    
-printf("\ninside the function value of a = %d and value of b = %d before swap\n",a,b);  
-temp = a;   
-a = b;   
-b = temp;    
-printf("value of a = %d and value of b = %d",a,b);   
-}   
-int main()   
-{    
+void swap(int a,int b)
+void main()
+{ 
 int x,y;    
 printf("enter value for x : ");   
 scanf("%d",&x);   
@@ -507,6 +499,17 @@ swap(x,y);
 printf("\n after returning from swap function");   
 printf("\n value of x = %d and value of y = %d",x,y);  
 return 0;   
+
+}   
+  void swap(int a, int b) 
+{  
+int temp;    
+printf("\ninside the function value of a = %d and value of b = %d before swap\n",a,b);  
+temp = a;   
+a = b;   
+b = temp;    
+printf("value of a = %d and value of b = %d",a,b);     
+
 }    
 
 23. #### Program to swap two numbers by call by reference method
