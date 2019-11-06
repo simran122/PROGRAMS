@@ -77,6 +77,7 @@ printf("Invalid Output");
 return 0;  
 }  
 
+----------
 
 4. ### Program to find whether the number is even or odd
 
@@ -93,6 +94,7 @@ printf(" b is odd ");
 return 0;  
 }   
 
+----------
 
 5. ### Program to print the table using loop
 
@@ -110,6 +112,7 @@ printf("%d X %d = %d\n",d,i,n);
 return 0;  
 }   
 
+---------
 
 6. ### Program to find whether the number is armstrong or not
 
@@ -133,8 +136,9 @@ printf("Armstrong Number\n");
 else  
 printf("Not an Armstrong number\n");  
 return 0;  
-}  
-
+} 
+ 
+----------
 
 7. ### Program to print a calculator using puts
 
@@ -153,6 +157,7 @@ puts("|    0      | * |\n");
 puts("|___________|___|\n");                                                             
 }  
 
+------------
 
 8. ### Program for bubble short
 
@@ -187,6 +192,7 @@ printf("\n");
 return 0;  
 }  
 
+------------
 
 9. ### Program for binary search
 
@@ -226,6 +232,7 @@ printf("Not found! %d is not present in the list.n",n,key);
 return 0;  
 }  
 
+-----------
 
 10. ### Program for a factorial of number
 
@@ -242,6 +249,8 @@ factorial = factorial * i;
 printf("factorial of %d is %d\n",a,factorial);  
 return 0;  
 }  
+
+-------------
 
 11. ### Program for fizzbuzz
 
@@ -263,6 +272,7 @@ printf("%d\n",i);
 return 0;   
 }   
 
+------------
 
 12 . ### Program for  sum of first 100 number
 
@@ -279,6 +289,8 @@ number++;
 printf("sum of first 100 postive integer number=%d\n",sum);  
 return 0;  
 }  
+
+-----------
 
 13. ### Program to find greater of two numbers
 
@@ -299,6 +311,8 @@ printf("b is greater ");
 return 0;  
 }  
 
+----------
+
 14. ### Program to find greater of 3 numbers
                                                                                    
 
@@ -316,6 +330,8 @@ else
 printf("\n%d is the greatest number\n",c);  
 }  
 
+----------------
+
 15. ### Program to find gcd of numbers
 
 #include<stdio.h>  
@@ -332,7 +348,9 @@ m=r;
 }  
 printf("\nGCD=%d\n",n);  
 return 0;  
-}                                                                      
+}   
+
+--------------                                                                   
                                                                     
 
 16. ### Program to find whether the year is leap year or not
@@ -350,6 +368,7 @@ printf("%d is not a leap year",year);
 return 0;    
 }   
 
+--------------
                                                                     
 17. ### Program for linear search
 
@@ -376,6 +395,8 @@ if(c==n)
 printf("%d Is Not Present At Location\n",search);   
 return 0;   
 }    
+
+------------
 
 18. ### Program for matrix addition
  
@@ -415,6 +436,8 @@ printf("\n");
 return 0;  
 }  
 
+---------
+
 19. ### Program for transpose of matrix
 
 #include<stdio.h>   
@@ -451,6 +474,8 @@ printf("\n");
 }   
 }  
 
+-----------
+
 20. ### Program to find the sum of digits  of a number
 
 #include<stdio.h>  
@@ -470,6 +495,8 @@ temp=temp/10;
 printf("\nSum of digits of %d= %d\n",num,sum);   
 return 0;  
 } 
+
+-----------
 
 21. ### Program to check whether the number is palindrome number or not 
 
@@ -494,6 +521,8 @@ printf("\n%d Is Not A Palindrome Number\n",number);
 return 0;  
 }   
     
+-----------
+
 22. ### program to swap two numbers by call by value method
 
 #include<stdio.h>     
@@ -522,6 +551,8 @@ b = temp;
 printf("value of a = %d and value of b = %d",a,b);     
 
 }    
+
+--------------
 
 23. ### Program to swap two numbers by call by reference method
 
@@ -552,6 +583,8 @@ temp=*a;
 printf("\nValue of *a=%d, Value of *b= %d after swap\n",*a, *b);  
 }  
  
+----------
+
 24. ### Program to enter the details of employees using structure
 
 #include<stdio.h>   
@@ -581,6 +614,8 @@ printf("\n Employee's Department:%s",employee.department);
 printf("\n Employee's Salary:%f",employee.salary);    
 }   
 
+-------------
+
 25. ### Program to find the product of fractions using structure
 
 #include <stdio.h>   
@@ -606,7 +641,7 @@ printf("Product= %d/%d",V3.numerator, V3.denominator);
    
 }  
 
-
+------------------
 
                                                                     
                                                                     
