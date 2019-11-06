@@ -3,10 +3,14 @@
 -----------
 # ** Programming for Problem Solving**
 -------
-#Name:"Simran"
+#Name:"Simran Singh"
+#Rollno: 1915076
+#Class : CSE 'B'
+--
+
 #My _Programs
 
-1. #### Program to add two numbers
+1. ### Program to add two numbers
 
 #include<stdio.h>  
 int main()  
@@ -19,7 +23,9 @@ printf("%d",sum);
 return 0;  
 }  
 
-2. #### Program to find average of n numbers
+--
+
+2. ### Program to find average of n numbers
 
 #include<stdio.h>  
 int main()  
@@ -42,7 +48,9 @@ printf("Average = %f",avg);
 return 0;  
 } 
 
-3. #### Program to print weekdays using switch statement
+--
+
+3. ### Program to print weekdays using switch statement
 
 #include<stdio.h>  
 int main()  
@@ -70,7 +78,7 @@ return 0;
 }  
 
 
-4. #### Program to find whether the number is even or odd
+4. ### Program to find whether the number is even or odd
 
 #include<stdio.h>  
 int main()  
@@ -86,7 +94,7 @@ return 0;
 }   
 
 
-5. #### Program to print the table using loop
+5. ### Program to print the table using loop
 
 #include<stdio.h>  
 int main()  
@@ -103,7 +111,7 @@ return 0;
 }   
 
 
-6. #### Program to find whether the number is armstrong or not
+6. ### Program to find whether the number is armstrong or not
 
 #include<stdio.h>  
 int main()  
@@ -128,7 +136,7 @@ return 0;
 }  
 
 
-7. #### Program to print a calculator using puts
+7. ### Program to print a calculator using puts
 
 #include <stdio.h>  
 int main()  
@@ -146,7 +154,7 @@ puts("|___________|___|\n");
 }  
 
 
-8. #### Program for bubble short
+8. ### Program for bubble short
 
 #include<stdio.h>  
 int main()  
@@ -180,7 +188,7 @@ return 0;
 }  
 
 
-9. #### Program for binary search
+9. ### Program for binary search
 
 #include<stdio.h>  
 int main()  
@@ -219,7 +227,7 @@ return 0;
 }  
 
 
-10. #### Program for a factorial of number
+10. ### Program for a factorial of number
 
 #include<stdio.h>  
 int main()  
@@ -235,7 +243,7 @@ printf("factorial of %d is %d\n",a,factorial);
 return 0;  
 }  
 
-11. #### Program for fizzbuzz
+11. ### Program for fizzbuzz
 
 #include<stdio.h>  
 int main()   
@@ -256,7 +264,7 @@ return 0;
 }   
 
 
-12 . #### Program for  sum of first 100 number
+12 . ### Program for  sum of first 100 number
 
 #include<stdio.h>  
 int main()  
@@ -272,7 +280,7 @@ printf("sum of first 100 postive integer number=%d\n",sum);
 return 0;  
 }  
 
-13. #### Program to find greater of two numbers
+13. ### Program to find greater of two numbers
 
 #include<stdio.h>  
 int main()  
@@ -291,7 +299,7 @@ printf("b is greater ");
 return 0;  
 }  
 
-14. #### Program to find greater of 3 numbers
+14. ### Program to find greater of 3 numbers
                                                                                    
 
 #include<stdio.h>   
@@ -308,7 +316,7 @@ else
 printf("\n%d is the greatest number\n",c);  
 }  
 
-15. #### Program to find gcd of numbers
+15. ### Program to find gcd of numbers
 
 #include<stdio.h>  
 int main()   
@@ -327,7 +335,7 @@ return 0;
 }                                                                      
                                                                     
 
-16. #### Program to find whether the year is leap year or not
+16. ### Program to find whether the year is leap year or not
 
 #include<stdio.h>     
 int main()     
@@ -343,7 +351,7 @@ return 0;
 }   
 
                                                                     
-17. #### Program for linear search
+17. ### Program for linear search
 
 #include<stdio.h>   
 int main()   
@@ -369,7 +377,7 @@ printf("%d Is Not Present At Location\n",search);
 return 0;   
 }    
 
-18. #### Program for matrix addition
+18. ### Program for matrix addition
  
 #include<stdio.h>  
 int main()   
@@ -407,7 +415,7 @@ printf("\n");
 return 0;  
 }  
 
-19. #### Program for transpose of matrix
+19. ### Program for transpose of matrix
 
 #include<stdio.h>   
 int main()  
@@ -443,7 +451,7 @@ printf("\n");
 }   
 }  
 
-20. #### Program to find the sum of digits  of a number
+20. ### Program to find the sum of digits  of a number
 
 #include<stdio.h>  
 int main()   
@@ -463,7 +471,7 @@ printf("\nSum of digits of %d= %d\n",num,sum);
 return 0;  
 } 
 
-21. #### Program to check whether the number is palindrome number or not 
+21. ### Program to check whether the number is palindrome number or not 
 
 #include<stdio.h>   
 int main()    
@@ -486,7 +494,7 @@ printf("\n%d Is Not A Palindrome Number\n",number);
 return 0;  
 }   
     
-22. #### program to swap two numbers by call by value method
+22. ### program to swap two numbers by call by value method
 
 #include<stdio.h>     
 void swap(int a,int b)   
@@ -515,7 +523,7 @@ printf("value of a = %d and value of b = %d",a,b);
 
 }    
 
-23. #### Program to swap two numbers by call by reference method
+23. ### Program to swap two numbers by call by reference method
 
 #include<stdio.h>   
 void swap(int*, int*);  
@@ -544,7 +552,7 @@ temp=*a;
 printf("\nValue of *a=%d, Value of *b= %d after swap\n",*a, *b);  
 }  
  
-24. #### Program to enter the details of employees using structure
+24. ### Program to enter the details of employees using structure
 
 #include<stdio.h>   
 #include<string.h>   
@@ -573,7 +581,7 @@ printf("\n Employee's Department:%s",employee.department);
 printf("\n Employee's Salary:%f",employee.salary);    
 }   
 
-25. #### Program to find the product of fractions using structure
+25. ### Program to find the product of fractions using structure
 
 #include <stdio.h>   
 struct product   
