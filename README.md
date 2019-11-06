@@ -528,7 +528,7 @@ swap(&x,&y);
 printf("\nAfter returning from swap function");  
 printf("\nValue of x=%d, Value of y=%d",x,y);  
 }   
-void swap(int*a, int*b)   
+void swap(int *a, int *b)   
   
 {   
 int temp;   
