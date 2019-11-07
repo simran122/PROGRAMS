@@ -24,9 +24,9 @@ return 0;
 }  
 ```
 --------
-'''C
-2. ### Program to find average of n numbers
 
+2. ### Program to find average of n numbers
+```C
 #include<stdio.h>  
 int main()  
 {   
@@ -47,9 +47,9 @@ avg = sum/n;
 printf("Average = %f",avg);  
 return 0;  
 } 
-'''
+```
 -------
-'''C
+```C
 3. ### Program to print weekdays using switch statement
 
 #include<stdio.h>  
