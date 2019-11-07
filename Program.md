@@ -11,7 +11,7 @@
 #My _Programs
 
 1. ### Program to add two numbers
-
+```C
 #include<stdio.h>  
 int main()  
 {  
