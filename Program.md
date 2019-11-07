@@ -22,9 +22,9 @@ sum=a+b;
 printf("%d",sum);  
 return 0;  
 }  
-
+```
 --------
-
+'''C
 2. ### Program to find average of n numbers
 
 #include<stdio.h>  
@@ -47,9 +47,9 @@ avg = sum/n;
 printf("Average = %f",avg);  
 return 0;  
 } 
-
+'''
 -------
-
+'''C
 3. ### Program to print weekdays using switch statement
 
 #include<stdio.h>  
@@ -76,9 +76,9 @@ else
 printf("Invalid Output");  
 return 0;  
 }  
-
+'''
 ----------
-
+'''C
 4. ### Program to find whether the number is even or odd
 
 #include<stdio.h>  
@@ -93,7 +93,7 @@ else
 printf(" b is odd ");   
 return 0;  
 }   
-
+'''
 ----------
 
 5. ### Program to print the table using loop
